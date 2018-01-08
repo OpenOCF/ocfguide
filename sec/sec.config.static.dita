@@ -23,12 +23,22 @@
       configuration may be more convenient that dynamic configuration.
     </p>
 
-    <p>
-      An SVR configuration file for a server:
-    </p>
-    <codeblock outputclass="json">
-      <coderef href="svr.server.cfg"/>
-    </codeblock>
+    <fig>
+      <title>Configuration file for server</title>
+      <codeblock outputclass="json">
+	<coderef href="svr.server.cfg"/>
+      </codeblock>
+      <dl>
+	<dlentry>
+	  <dt>A</dt>
+	  <dd>intercooler</dd>
+	</dlentry>
+	<dlentry>
+	  <dt>B</dt>
+	  <dd>expansion tank</dd>
+	</dlentry>
+      </dl>
+    </fig>
 
     <p>
       An SVR configuration file for a client that owns the server:
