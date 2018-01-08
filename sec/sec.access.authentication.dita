@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.services.authentication" xml:lang="en-us">
+<title>Authentication Services</title>
+<shortdesc></shortdesc>
+
+<!-- <prolog> -->
+<!--   <metadata> -->
+<!--     <keywords> -->
+<!-- 	<indexterm></indexterm> -->
+<!--     </keywords> -->
+<!--   </metadata> -->
+<!-- </prolog> -->
+
+<conbody>
+  <p>
+    Authentication is the process of verifying the identity of a
+    participant in a transaction, such as the sender of a request
+    message. OCF authentication is based on cryptographic
+    credentials.
+  </p>
+
+  <p>
+    There are two basic types of cryptography used for credential
+    authentication, symmetric and asymmetric.
+  </p>
+
+  <p>
+    Symmetric cryptography uses the same (secret) cryptographic key
+    for both encryption and decryption.  The key is often called a
+    "Pre-Shared Key" (PSK), since both parties to the transaction must
+    be provisioned with it.
+  </p>
+
+  <p>
+    Asymmetric cryptography uses a pair of keys, one a private
+    (secret) key and the other a public key.  The private key is never
+    shared. Senders use their private key to "sign" their messages,
+    and receivers use the public key of the sender to verify the
+    signature.  Asymmetric cryptography is often referred to as
+    "Public-Key Cryptography".
+  </p>
+
+  <p>
+    Closely related to asymmetric cryptography is the use of
+    "certificate authorities" to certify ownership of key pairs. Using
+    a public key to verify the signature of a message ensures that the
+    sender is in possession of the private key that signed the
+    message; it does not, however, authenticate the <i>identity</i> of
+    the sender. A certificate authority (CA) is an entity that issues
+    digital certificates that certify ownership of a public key by
+    the entity named in the certificate.
+  </p>
+
+  <p>
+    OCF authentication services support the following credential types:
+  </p>
+
+  <ul>
+    <li>Symmetric Pairwise Key (Pre-Shared Key or PSK)</li>
+    <li>Symmetric Group Key</li>
+    <li>Asymmetric Signing Key</li>
+    <li>Asymmetric Signing Key with Certificates</li>
+    <li>PIN or Password</li>
+    <li>Assymetric Encryption Key</li>
+  </ul>
+
+  <p>
+    OCF engines maintain a Credentials Database that stores
+    credentials and associated device IDs. The database is accessible
+    as a resource (/oic/sec/cred). Provisioning of the database is
+    described in <xref keyref="sec.mgmt.provisioning"/>.
+  </p>
+
+  <p>
+    When symmetric keys are used, OCF authentication services attach
+    to outgoing messages the device id and credential (PSK) of the
+    sending device, and, on the receiving end, extract the device ID
+    and credential from the incoming message and look them up in the
+    Credentials DB. If found, the messages is marked as authenticated
+    and processing continues; otherwise, the message is rejected with
+    an UNAUTHENTICATED response.
+  </p>
+
+  <p>
+    When asymmetric credentials are used, OCF authentication services
+    use the sender's private key to sign outgoing messages, and on the
+    receiving end use the sender's public key to verify the signature. ... etc. ...
+    <draft-comment>TODO: flesh this out.</draft-comment>
+  </p>
+</conbody>
+
+<related-links>
+
+  <link href="https://en.wikipedia.org/wiki/Authentication" format="html" scope="external">
+    <linktext>Authentication (Wikipedia)</linktext>
+  </link>
+
+  <link href="https://en.wikipedia.org/wiki/Certificate_authority"
+	format="html" scope="external">
+    <linktext>Certificate Authority (Wikipedia)</linktext>
+  </link>
+
+  <link href="https://en.wikipedia.org/wiki/Public_key_certificate"
+	format="html" scope="external">
+    <linktext>Public-key Certificate (Wikipedia)</linktext>
+  </link>
+
+  <link href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm"
+	format="html" scope="external">
+    <linktext>Symmetric-key Algorithm (Wikipedia)</linktext>
+  </link>
+
+  <link href="https://en.wikipedia.org/wiki/Public-key_cryptography"
+	format="html" scope="external">
+    <linktext>Public-key Cryptography</linktext>
+  </link>
+
+</related-links>
+
+</concept>

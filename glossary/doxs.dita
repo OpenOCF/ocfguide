@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.doxs">
+  <glossterm>DOXS</glossterm>
+
+  <glossdef><b>D</b>evice <b>O</b>wnership <b>T</b>ransfer
+  <b>S</b>ervice. An OCF DOXS provides device registration (ownership
+  transfer) services.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Device Ownership Transfer Service</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>DOXS</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+<!-- <related-links> -->
+
+<!--   <link href="https://en.wikipedia.org/wiki/Pulse-width_modulation" -->
+<!-- 	format="html" scope="external"> -->
+<!--     <linktext>Pulse-width Modulation (Wikipedia)</linktext> -->
+<!--   </link> -->
+
+<!-- </related-links> -->
+
+</glossentry>
+

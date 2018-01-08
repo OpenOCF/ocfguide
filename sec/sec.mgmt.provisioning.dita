@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.mgmt.provisioning" xml:lang="en-us">
+  <title>Provisioning Services</title>
+  <shortdesc></shortdesc>
+
+  <!-- <prolog> -->
+  <!--   <metadata> -->
+  <!--     <keywords> -->
+  <!-- 	<indexterm></indexterm> -->
+  <!--     </keywords> -->
+  <!--   </metadata> -->
+  <!-- </prolog> -->
+
+  <conbody>
+    <p>
+      Once a device has been provisioned with an identifier and
+      registered with the network, it must be provisioned with
+      security resources: credentials and access control lists (ACLs).
+    </p>
+
+  <p>
+Lorem nulla, finibus vel risus at, feugiat porttitor dolor. Duis ut nulla sit amet nisi imperdiet laoreet. Curabitur tortor nibh, feugiat eget justo at, mattis commodo tortor. Cras nec risus vel magna suscipit pharetra et quis turpis. Pellentesque hendrerit tincidunt ante, quis aliquam enim laoreet ut. Donec tristique rutrum massa ut posuere. Duis non elit dapibus, pellentesque orci a, malesuada sem. Pellentesque pulvinar erat ut dui tincidunt cursus. Nulla iaculis tempus enim, sed finibus metus viverra eu. Proin ac rhoncus libero, sit amet convallis diam. Sed eu magna volutpat, suscipit elit eu, placerat justo. Fusce varius dolor orci, eget aliquet arcu luctus rhoncus. Quisque nec diam pulvinar, ultricies urna in, bibendum mi. Curabitur id odio in diam porta molestie. Aliquam eget dui augue. Vivamus a mollis leo.
+  </p>
+
+  <p>
+Phasellus nisl felis, faucibus non arcu eget, ultricies lobortis ipsum. Nulla nulla purus, sagittis et cursus at, porttitor a felis. Nulla ut dolor enim. Vivamus imperdiet nunc sit amet lacus laoreet tincidunt. Mauris velit quam, faucibus eu consectetur vel, hendrerit et felis. Sed mattis dapibus auctor. Vivamus posuere eget magna in congue. Proin nisl massa, venenatis sit amet tempus eget, lobortis non nisi. Cras rhoncus posuere lectus vel tincidunt.
+  </p>
+
+  <p>
+Etiam posuere mi purus, vel elementum nisl efficitur pretium. Maecenas vehicula pellentesque mauris a tincidunt. Nullam gravida neque vel ex porttitor eleifend. Integer semper neque quis arcu aliquet luctus. Fusce tortor ligula, ornare at facilisis id, dictum eu ante. Suspendisse pulvinar ex quis ullamcorper bibendum. Curabitur non ipsum dolor.
+  </p>
+
+  </conbody>
+
+<related-links>
+
+  <link href="http://paper.ijcsns.org/07_book/201101/20110111.pdf"
+	format="html" scope="external">
+    <linktext>Key Management for Updating Crypto-keys over AIR (PDF)</linktext>
+  </link>
+
+</related-links>
+
+
+
+</concept>

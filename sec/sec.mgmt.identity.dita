@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.mgmt.ams" xml:lang="en-us">
+  <title>Identity Provisioning and Management</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>Identity</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      Every operational device on an OCF network must be provisioned
+      with a unique <i>device identifier</i>.
+    </p>
+
+    <p>
+      blah
+    </p>
+
+  </conbody>
+
+</concept>

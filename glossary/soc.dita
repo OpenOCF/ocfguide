@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.soc">
+  <glossterm>SoC</glossterm>
+
+  <glossdef><b>S</b>ystem <b>o</b>n a <b>C</b>hip.
+</glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>System on a Chip (SoC)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>Soc</glossAcronym>
+    </glossAlt>
+  </glossBody>
+
+<related-links>
+
+  <link href="https://en.wikipedia.org/wiki/System_on_a_chip"
+	format="html" scope="external">
+    <linktext>System on a Chip (Wikipedia)</linktext>
+  </link>
+
+</related-links>
+
+
+</glossentry>
+

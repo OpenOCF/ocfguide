@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.encryption" xml:lang="en-us">
+  <title>Encryption Services</title>
+  <shortdesc></shortdesc>
+
+  <!-- <prolog> -->
+  <!--   <metadata> -->
+  <!--     <keywords> -->
+  <!-- 	<indexterm></indexterm> -->
+  <!--     </keywords> -->
+  <!--   </metadata> -->
+  <!-- </prolog> -->
+
+  <conbody>
+    <p>
+      Data integrity and confidentiality are ensured via transport
+      layer encryption. OCF requires support for DTLS for UDP and TLS
+      for TCP communications.
+    </p>
+
+    <p>
+      Establishment of a secure communication channel using (D)TLS
+      requires two things: and agreed-upon cipher suite, and
+      cryptographic credentials. The latter are used for mutual
+      authentication: servers authenticate clients, and vice-versa.
+    </p>
+
+    <p>
+      It follows that OCF devices must be configured with the
+      credentials and the cipher suites necessary for secured
+      communication.  Static configuration provisions the necessary
+      information at build time or during runtime initialization
+      (e.g. by reading a fixed configuration file). Devices may also
+      be configured dynamically, over the network. OCF defines a
+      detailed model of dynamic provisioning (described in <xref
+      href="sec.mgmt.provisioning.dita"/>).
+    </p>
+
+  </conbody>
+
+<related-links>
+
+  <link href="https://tools.ietf.org/html/rfc5246#section-7"
+	format="html" scope="external">
+    <linktext>The TLS Handshaking Protocols (IETF RFC 5246)</linktext>
+  </link>
+
+  <link href="http://www.joshianlindsay.com/index.php?id=169"
+	format="html" scope="external">
+    <linktext>Intro to DTLS</linktext>
+  </link>
+
+  <link href="https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_7.1.0/com.ibm.mq.doc/sy10660_.htm"
+	format="html" scope="external">
+    <linktext>An overview of the SSL or TLS handshake</linktext>
+  </link>
+
+</related-links>
+
+
+
+</concept>

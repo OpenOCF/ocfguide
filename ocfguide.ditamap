@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+"../dtd/bookmap/dtd/bookmap.dtd">
+
+<bookmap id="iotivity-ug">
+  <booktitle>
+    <booklibrary>Iotivity</booklibrary>
+    <mainbooktitle>OCF Guide</mainbooktitle>
+    <!-- <booktitlealt></booktitlealt> -->
+  </booktitle>
+
+  <bookmeta>
+    <author type="creator">Gregg Reynolds</author>
+    <bookid>
+      <!-- <isbn>071271271X</isbn> -->
+      <!-- <booknumber>SG99-9999-00</booknumber> -->
+      <maintainer>
+	<organization>NORC at the University of Chicago</organization>
+	<person>Gregg Reynolds</person>
+      </maintainer>
+    </bookid>
+    <bookrights>
+      <copyrfirst><year>2016</year></copyrfirst>
+      <!-- <copyrlast><year>2007</year></copyrlast> -->
+      <bookowner>
+	<organization>NORC at the University of Chicago</organization>
+      </bookowner>
+    </bookrights>
+  </bookmeta>
+
+  <frontmatter>
+    <draftintro href="ug/frontmatter.draftintro.dita"
+		navtitle="About this Draft"/>
+    <booklists>
+      <toc/>
+    </booklists>
+    <bookabstract href="ug/frontmatter.abstract.dita"/>
+    <notices href="common/notices.dita">
+      <topicref href="common/trademarks.dita"></topicref>
+    </notices>
+    <preface href="ug/frontmatter.preface.dita"></preface>
+  </frontmatter>
+
+  <part href="part.overview.dita">
+  </part>
+
+  <part href="part.datamodel.dita">
+
+    <!-- <chapter href="ug/cloud.overview.dita"> -->
+    <!--   <topicref href="ug/cloud.server.dita"/> -->
+    <!--   <topicref href="ug/cloud.client.dita"/> -->
+    <!-- </chapter> -->
+
+  </part>
+
+  <part href="part.security.dita">
+
+    <chapter href="sec/sec.overview.dita"/>
+    <!--   <topicmeta> -->
+    <!-- 	<navtitle>Security Overview</navtitle> -->
+    <!--   </topicmeta> -->
+    <!--   <topicref -->
+    <!--   <topicref href="sec/sec.axioms.dita"/> -->
+    <!--   <topicref href="sec/sec.protocols.dita"/> -->
+    <!-- </chapter> -->
+
+    <chapter href="sec/sec.config.overview.dita">
+      <topicref href="sec/sec.config.dynamic.dita"/>
+      <topicref href="sec/sec.config.static.dita"/>
+    </chapter>
+
+    <chapter href="sec/sec.encryption.dita">
+      <topicref href="sec/sec.encryption.configuration.dita"/>
+      <topicref href="sec/sec.encryption.cipher.dita"/>
+      <topicref href="sec/sec.encryption.authentication.dita"/>
+    </chapter>
+
+    <chapter href="sec/sec.access.overview.dita">
+      <!-- <topicmeta> -->
+      <!-- 	<navtitle>Access Control Services</navtitle> -->
+      <!-- </topicmeta> -->
+      <!-- <topicref -->
+      <topicref href="sec/sec.access.authentication.dita"/>
+      <topicref href="sec/sec.access.authorization.dita"/>
+    </chapter>
+
+    <chapter>
+      <topicmeta>
+    	<navtitle>Security Resources</navtitle>
+      </topicmeta>
+      <topicref href="sec/sec.resources.dita"/>
+    </chapter>
+
+    <chapter href="sec/sec.mgmt.overview.dita">
+      <topicref href="sec/sec.mgmt.identity.dita"/>
+      <topicref href="sec/sec.mgmt.doxs.dita"/>
+      <topicref href="sec/sec.mgmt.provisioning.dita" keys="sec.mgmt.provisioning">
+	<topicref href="sec/sec.mgmt.cms.dita"/>
+	<topicref href="sec/sec.mgmt.ams.dita"/>
+      </topicref>
+    </chapter>
+
+    <!-- <topicref href="sec/sec.axioms.dita"/> -->
+    <!-- <topicref href="sec/sec.protocols.dita"/> -->
+  </part>
+
+  <part href="part.addons.dita">
+
+    <chapter href="ug/cloud.overview.dita">
+      <topicref href="ug/cloud.server.dita"/>
+      <topicref href="ug/cloud.client.dita"/>
+    </chapter>
+
+  </part>
+
+
+  <appendix href="ug/appendix.dita"></appendix>
+  <!-- <appendix href="ug/overview.case.dita"></appendix> -->
+
+  <backmatter>
+    <booklists>
+      <!-- <topicref href="taskbook/otherbooks.dita" navtitle="Related Books"/> -->
+      <!-- <topicref href="taskbook/trademarks.dita" navtitle="Trademarks"/> -->
+      <!-- <topicref href="taskbook/Glossary.dita navtitle="Glossary"/> -->
+      <bibliolist/>
+      <glossarylist>
+      	<mapref format="ditamap" href="glossary.ditamap"/>
+      </glossarylist>
+      <indexlist/>
+    </booklists>
+  </backmatter> 
+</bookmap>

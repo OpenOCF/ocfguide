@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="part.datamodel" xml:lang="en-us">
+  <title>Data Model</title>
+
+  <!-- <prolog> -->
+  <!--   <metadata> -->
+  <!--     <keywords> -->
+  <!-- 	<indexterm>Storage</indexterm> -->
+  <!--     </keywords> -->
+  <!--   </metadata> -->
+  <!-- </prolog> -->
+
+  <conbody>
+    <p>
+      OCF formally defines a sophisticated resource-based data model.
+    </p>
+
+  </conbody>
+
+</concept>

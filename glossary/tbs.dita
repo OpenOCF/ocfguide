@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.tbs">
+  <glossterm>TBS</glossterm>
+
+  <glossdef><b>T</b>o <b>B</b>e <b>S</b>igned. Refers to certificates
+  and certificate lists.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>To Be Signed</glossSurfaceForm>
+    <glossAlt>
+      <glossShortForm>TBS</glossShortForm>
+    </glossAlt>
+  </glossBody>
+
+<related-links>
+  <link href="https://tools.ietf.org/html/rfc5280"
+	format="txt" scope="external">
+    <linktext>RFC5280: Internet X.509 Public Key Infrastructure
+    Certificate and Certificate Revocation List (CRL)
+    Profile</linktext>
+  </link>
+
+</related-links>
+
+
+</glossentry>
+

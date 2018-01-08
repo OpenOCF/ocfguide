@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="part.addons" xml:lang="en-us">
+  <title>Add-ons</title>
+
+  <!-- <prolog> -->
+  <!--   <metadata> -->
+  <!--     <keywords> -->
+  <!-- 	<indexterm>Storage</indexterm> -->
+  <!--     </keywords> -->
+  <!--   </metadata> -->
+  <!-- </prolog> -->
+
+  <conbody>
+    <p>
+      Iotivity implements some add-ons...
+    </p>
+
+  </conbody>
+
+</concept>

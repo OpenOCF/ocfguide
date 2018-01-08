@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.overview" xml:lang="en-us">
+  <title>Security Overview</title>
+
+  <!-- <prolog> -->
+  <!--   <metadata> -->
+  <!--     <keywords> -->
+  <!-- 	<indexterm>Storage</indexterm> -->
+  <!--     </keywords> -->
+  <!--   </metadata> -->
+  <!-- </prolog> -->
+
+  <conbody>
+    <p>
+      OCF security is built on two orthogonal pillars: data integrity
+      and confidentiality, and access control.
+    </p>
+
+    <p>
+      The integrity and confidentiality of in-flight data is handled
+      by transport-level encryption (DTLS/TLS). The integrity of data
+      at rest is the responsibility of the implementation; OCF
+      provides some recommendations but no mandatory features.
+    </p>
+
+    <p>
+      Access control is composed of authentication and
+      authorization. Authentication is based on cryptographic
+      credentials; authorization is based on Access Control Lists.
+    </p>
+
+    <p>
+      Encryption and access control are orthogonal. All access to
+      resources is governed by access control, whether communications
+      are encrypted or not. It follows that every resource must have
+      an ACL.
+    </p>
+
+    <p>
+      <i>Provisioning</i> of security-related resources (identity,
+      credentials, ACLs) is an important aspect of OCF security.
+    </p>
+
+    <ul>
+      <li>Security Services</li>
+      <li>Security Management Service</li>
+      <li>Security Resources</li>
+      <li>Security Protocols</li>
+      <li>etc...</li>
+    </ul>
+
+  </conbody>
+
+</concept>

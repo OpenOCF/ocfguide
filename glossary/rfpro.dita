@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.rfpro">
+  <glossterm>RFPRO</glossterm>
+
+  <glossdef><b>R</b>eady <b>F</b>or <b>PRO</b>visioning. A
+  security state indicating the device is properly provisioned and
+  configured for security resource provisioning.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Ready For Provisioning (RFPRO)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>RFPRO</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+</glossentry>
+

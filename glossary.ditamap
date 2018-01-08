@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+ "../dtd/technicalContent/dtd/map.dtd">
+<map title="OCF Glossary">
+<glossref keys="gloss.ams" href="glossary/ams.dita" print="yes"/>
+<glossref keys="gloss.authentication" href="glossary/authentication.dita" print="yes"/>
+<glossref keys="gloss.authorization" href="glossary/authorization.dita" print="yes"/>
+<glossref keys="gloss.ciphersuite" href="glossary/ciphersuite.dita" print="yes"/>
+<glossref keys="gloss.cms" href="glossary/cms.dita" print="yes"/>
+<glossref keys="gloss.doxs" href="glossary/doxs.dita" print="yes"/>
+<glossref keys="gloss.reset" href="glossary/reset.dita" print="yes"/>
+<glossref keys="gloss.rfnop" href="glossary/rfnop.dita" print="yes"/>
+<glossref keys="gloss.rfotm" href="glossary/rfotm.dita" print="yes"/>
+<glossref keys="gloss.rfpro" href="glossary/rfpro.dita" print="yes"/>
+<glossref keys="gloss.sreset" href="glossary/sreset.dita" print="yes"/>
+<glossref keys="gloss.tbs" href="glossary/tbs.dita" print="yes"/>
+</map>

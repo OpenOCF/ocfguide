@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.sreset">
+  <glossterm>Soft Reset</glossterm>
+
+  <glossdef><b>S</b>oft <b>RESET</b>. A security state indicating the
+  device is not operational but is owned (registered with the network).
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Soft Reset</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>SRESET</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+</glossentry>
+

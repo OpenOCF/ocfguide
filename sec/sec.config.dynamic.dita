@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.config.dynamic" xml:lang="en-us">
+  <title>Dynamic Security Configuration and Provisioning</title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>Security <indexterm>configuration</indexterm></indexterm>
+	<indexterm>Security <indexterm>provisioning</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      Dynamic security provisioning and configuration...
+    </p>
+
+  </conbody>
+
+</concept>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.rfotm">
+  <glossterm>RFOTM</glossterm>
+
+  <glossdef><b>R</b>eady <b>F</b>or <b>O</b>wnership <b>T</b>ranser <b>M</b>ethod.  A
+  security state indicating the device is properly provisioned and
+  configured for ownership transfer.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Ready For Ownership Transfer Method (RFOTM)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>RFOTM</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+</glossentry>
+

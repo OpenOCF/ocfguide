@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.encryption.configuration" xml:lang="en-us">
+<title>(D)TLS Configuration</title>
+<shortdesc>OCF devices must be properly configure to use (D)TLS security.</shortdesc>
+
+<prolog>
+  <metadata>
+    <keywords>
+      <indexterm>Configuration</indexterm>
+      <indexterm>DTLS</indexterm>
+      <indexterm>TLS</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      (D)TLS requires that communicating parties negotiate a
+      <abbreviated-form keyref="gloss.ciphersuite"/> and exchange the
+      information necessary for mutual authentication.
+    </p>
+
+    <p>
+      If Symmetric Key credentials are being used, each party must be
+      provisioned with the ID and credential of the other.  See 
+    </p>
+
+  </conbody>
+
+</concept>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.skdc">
+  <glossterm>SKDC</glossterm>
+
+  <glossdef><b>S</b>ecure <b>K</b>ey <b>D</b>ata <b>C</b>arrier
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Secure Key Data Carrrier</glossSurfaceForm>
+    <glossAlt>
+      <glossShortForm>SKDC</glossShortForm>
+    </glossAlt>
+  </glossBody>
+
+<related-links>
+  <link href="http://paper.ijcsns.org/07_book/201101/20110111.pdf"
+	format="pdf" scope="external">
+    <linktext>Key Management for Updating Crypto-keys over AIR</linktext>
+  </link>
+
+</related-links>
+
+
+</glossentry>
+

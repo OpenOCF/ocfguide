@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.cms">
+  <glossterm>CMS</glossterm>
+
+  <glossdef><b>C</b>redential <b>M</b>anagement <b>S</b>ervice(s)
+</glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Credential Management Service(s) (CMS)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>CMS</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+</glossentry>
+

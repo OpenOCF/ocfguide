@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.mgmt.ams" xml:lang="en-us">
+  <title>ACL Provisioning and Management</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>AMS</indexterm>
+  	<indexterm>ACL Management Services</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      OCF Access Control List management services ...
+    </p>
+
+    <p>
+      blah
+    </p>
+
+    <!-- <ul> -->
+        <!-- <li>Physical security - what happens if a device is stolen?  If -->
+        <!-- it contains sensitive data, is it encrypted?  Can we wipe the -->
+        <!-- device remotely?</li> -->
+        <!-- <li>Data security</li> -->
+        <!-- <li>Network security</li> -->
+        <!-- <li>etc.</li> -->
+      <!-- </ul> -->
+
+  </conbody>
+
+</concept>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.svrs" xml:lang="en-us">
+  <title>Security Virtual Resources</title>
+  <shortdesc></shortdesc>
+
+  <!-- <prolog> -->
+  <!--   <metadata> -->
+  <!--     <keywords> -->
+  <!-- 	<indexterm></indexterm> -->
+  <!--     </keywords> -->
+  <!--   </metadata> -->
+  <!-- </prolog> -->
+
+  <conbody>
+    <p>
+      Security Virtual Resources (SVRs) ...
+    </p>
+
+    <ul>
+      <li>/oic/sec/doxm - Device Ownership Transfer Management</li>
+      <li>/oic/sec/pstat - Provisioning Status</li>
+      <li>/oic/sec/cred - Credentials</li>
+      <li>/oic/sec/acl2 - Access Control Lists</li>
+      <li>/oic/sec/amacl - Access Management Service ACLs</li>
+      <li>/oic/sec/sacl - Secure ACLs</li>
+    </ul>
+
+  </conbody>
+
+</concept>

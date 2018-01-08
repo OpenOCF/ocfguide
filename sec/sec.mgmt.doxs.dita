@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.mgmt.doxs" xml:lang="en-us">
+  <title>Ownership (Registration) Management</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>DOXS</indexterm>
+  	<indexterm>Device Ownership Transfer Service</indexterm>
+  	<indexterm>Device Registration</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      Every device on an OCF network must be registered to the
+      network. OCF expresses this in terms of <b>device ownership</b>.
+    </p>
+
+    <p>
+      An OCF <abbreviated-form keyref="gloss.doxs"/> provides device
+      registration (ownership transfer) services.
+    </p>
+
+    <p>
+      Here is another use of the <abbreviated-form keyref="gloss.doxs"/>  term.
+    </p>
+
+  </conbody>
+
+</concept>

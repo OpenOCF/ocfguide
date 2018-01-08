@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.config" xml:lang="en-us">
+  <title>Security Configuration and Provisioning</title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>Security <indexterm>configuration</indexterm></indexterm>
+	<indexterm>Security <indexterm>provisioning</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      Security provisioning and configuration...
+    </p>
+
+    <p>
+      Concepts:
+      <ul>
+	<li>Device Identity</li>
+	<li>Device Credential</li>
+	<li>Device Ownership</li>
+	<li>Device Onboarding</li>
+	<li>Ownership Transfer</li>
+	<li>Security Provisioning</li>
+	<li>Security Configuration</li>
+      </ul>
+    </p>
+
+    <p>
+      Security states:
+      <ul>
+	<li><abbreviated-form keyref="gloss.reset"/></li>
+	<li><abbreviated-form keyref="gloss.rfotm"/></li>
+	<li><abbreviated-form keyref="gloss.rfpro"/></li>
+	<li><abbreviated-form keyref="gloss.rfnop"/></li>
+	<li><abbreviated-form keyref="gloss.sreset"/></li>
+      </ul>
+    </p>
+
+  </conbody>
+
+</concept>

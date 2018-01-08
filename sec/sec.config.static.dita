@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.config.static" xml:lang="en-us">
+  <title>Static Configuration and Provisioning</title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>Security
+	<indexterm>configuration</indexterm>
+	<indexterm>static</indexterm>
+	</indexterm>
+	<indexterm>Security <indexterm>provisioning</indexterm> <indexterm>static</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      For development and testing purposes, static provisioning
+      configuration may be more convenient that dynamic configuration.
+    </p>
+
+    <p>
+      An SVR configuration file for a server:
+    </p>
+    <codeblock outputclass="json">
+      <coderef href="svr.server.cfg"/>
+    </codeblock>
+
+    <p>
+      An SVR configuration file for a client that owns the server:
+    </p>
+    <codeblock outputclass="json">
+      <coderef href="svr.client.owner.cfg"/>
+    </codeblock>
+
+  </conbody>
+
+</concept>
