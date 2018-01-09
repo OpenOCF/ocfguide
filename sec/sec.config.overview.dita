@@ -3,7 +3,7 @@
  "../../dtd/technicalContent/dtd/concept.dtd">
 
 <concept id="sec.config" xml:lang="en-us">
-  <title>Security Configuration and Provisioning</title>
+  <title>Configuration and Provisioning</title>
 
   <prolog>
     <metadata>
@@ -16,7 +16,8 @@
 
   <conbody>
     <p>
-      Security provisioning and configuration...
+      In this document we make a distinction between security
+      provisioning and configuration.
     </p>
 
     <p>

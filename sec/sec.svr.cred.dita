@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.svr.cred" xml:lang="en-us">
+  <title>CRED (Credentials)</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>CRED</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      The <abbreviated-form keyref="gloss.svr.cred"/> resource controls
+      credentials.
+    </p>
+
+    <p>
+      URL: <codeph>/oic/cred</codeph>
+    </p>
+
+    <p>
+      Properties:
+    </p>
+
+  </conbody>
+
+</concept>

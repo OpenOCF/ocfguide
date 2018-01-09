@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.svr.acl2">
+  <glossterm>ACL2</glossterm>
+
+  <glossdef><b>A</b>ccess <b>C</b>ontrol <b>L</b>ist (version <b>2</b>).
+  An <abbreviated-form keyref="gloss.svr"/> whose
+  state controls resource access. See <xref
+  href="../sec/sec.svr.acl2.dita"/> for details.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Provisioning Status (ACL2)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>ACL2</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+</glossentry>
+

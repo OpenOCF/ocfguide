@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.svr.pstat" xml:lang="en-us">
+  <title>PSTAT (Provisioning Status)</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>PSTAT</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      The <abbreviated-form keyref="gloss.svr.pstat"/> resource controls
+      provisioning.
+    </p>
+
+    <p>
+      URL: <codeph>/oic/pstat</codeph>
+    </p>
+
+    <p>
+      Properties:
+    </p>
+
+  </conbody>
+
+</concept>

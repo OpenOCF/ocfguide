@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.svr.amacl" xml:lang="en-us">
+  <title>AMACL (Access Manager ACL) resource</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>AMACL</indexterm>
+  	<indexterm>ACL</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      The <abbreviated-form keyref="gloss.svr.amacl"/> resource
+      supports remote ACL management.
+    </p>
+
+    <p>
+      URL: <codeph>/oic/amacl</codeph>
+    </p>
+
+    <p>
+      Properties:
+    </p>
+
+  </conbody>
+
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.svr.pstat">
+  <glossterm>PSTAT</glossterm>
+
+  <glossdef><b>P</b>rovisioning <b>STAT</b>us.
+  An <abbreviated-form keyref="gloss.svr"/> whose
+  state controls security provisioning. See <xref
+  href="../sec/sec.svr.pstat.dita"/> for details.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Provisioning Status (PSTAT)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>PSTAT</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+</glossentry>
+

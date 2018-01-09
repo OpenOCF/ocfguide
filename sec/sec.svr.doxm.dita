@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.svr.doxm" xml:lang="en-us">
+  <title>DOXM (Device Ownership Transfer Management)</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>DOXM</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      The <abbreviated-form keyref="gloss.svr.doxm"/> resource controls
+      device ownership transfer.
+    </p>
+
+    <p>
+      URL: <codeph>/oic/doxm</codeph>
+    </p>
+
+    <p>
+      Properties:
+    </p>
+
+  </conbody>
+
+</concept>

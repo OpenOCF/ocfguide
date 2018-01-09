@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.svr.acl2" xml:lang="en-us">
+  <title>ACL2 (Access Control List)</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>ACL2</indexterm>
+  	<indexterm>ACL</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      The <abbreviated-form keyref="gloss.svr.acl2"/> resource controls
+      resource access.
+    </p>
+
+    <p>
+      URL: <codeph>/oic/acl2</codeph>
+    </p>
+
+    <p>
+      Properties:
+    </p>
+
+    <note>Earlier versions of OCF (and its predecessor, OIC) defined
+    an ACL resource (<codeph>/oic/acl</codeph>). This is obsolete as of OCF version 1.3.0.
+    </note>
+
+  </conbody>
+
+</concept>

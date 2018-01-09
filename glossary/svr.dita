@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.svr">
+  <glossterm>SVR</glossterm>
+
+  <glossdef><b>S</b>ecurity <b>V</b>irtual <b>R</b>esource.  An
+  OCF-defined resource whose state governs some aspect of
+  security. See <xref href="../sec/sec.svr.overview.dita"/>.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Security Virtual Resource (SVR)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>SVR</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+<!-- <related-links> -->
+
+<!--   <link href="https://en.wikipedia.org/wiki/Pulse-width_modulation" -->
+<!-- 	format="html" scope="external"> -->
+<!--     <linktext>Pulse-width Modulation (Wikipedia)</linktext> -->
+<!--   </link> -->
+
+<!-- </related-links> -->
+
+</glossentry>
+

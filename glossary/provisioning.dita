@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.provisioning">
+  <glossterm>Provisioning</glossterm>
+
+  <glossdef>
+    Provisioning refers to the distribution of the <abbreviated-form
+    keyref="gloss.svr"/> data necessary to correctly configure an OCF
+    device. See <xref href="../sec/sec.svr.overview.dita"/>.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Provisioning</glossSurfaceForm>
+  </glossBody>
+
+</glossentry>
+

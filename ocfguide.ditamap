@@ -69,10 +69,14 @@
       <topicref href="sec/sec.config.static.dita"/>
     </chapter>
 
-    <chapter href="sec/sec.encryption.dita">
+    <chapter href="sec/sec.encryption.overview.dita">
       <topicref href="sec/sec.encryption.configuration.dita"/>
       <topicref href="sec/sec.encryption.cipher.dita"/>
       <topicref href="sec/sec.encryption.authentication.dita"/>
+    </chapter>
+
+    <chapter href="sec/sec.credentials.dita">
+      <!-- <topicref href="sec/sec.encryption.configuration.dita"/> -->
     </chapter>
 
     <chapter href="sec/sec.access.overview.dita">
@@ -84,11 +88,16 @@
       <topicref href="sec/sec.access.authorization.dita"/>
     </chapter>
 
-    <chapter>
-      <topicmeta>
-    	<navtitle>Security Resources</navtitle>
-      </topicmeta>
-      <topicref href="sec/sec.resources.dita"/>
+    <chapter href="sec/sec.svr.overview.dita">
+      <!-- <topicmeta> -->
+      <!-- 	<navtitle>Security Virtual Resources</navtitle> -->
+      <!-- </topicmeta> -->
+      <topicref keys="svr.doxm" href="sec/sec.svr.doxm.dita"/>
+      <topicref keys="svr.doxm" href="sec/sec.svr.pstat.dita"/>
+      <topicref keys="svr.doxm" href="sec/sec.svr.cred.dita"/>
+      <topicref keys="svr.doxm" href="sec/sec.svr.acl2.dita"/>
+      <topicref keys="svr.doxm" href="sec/sec.svr.amacl.dita"/>
+      <topicref keys="svr.doxm" href="sec/sec.svr.sacl.dita"/>
     </chapter>
 
     <chapter href="sec/sec.mgmt.overview.dita">

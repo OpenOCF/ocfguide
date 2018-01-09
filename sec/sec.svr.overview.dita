@@ -2,21 +2,22 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
  "../../dtd/technicalContent/dtd/concept.dtd">
 
-<concept id="sec.svrs" xml:lang="en-us">
+<concept id="sec.svr.overview" xml:lang="en-us">
   <title>Security Virtual Resources</title>
   <shortdesc></shortdesc>
 
-  <!-- <prolog> -->
-  <!--   <metadata> -->
-  <!--     <keywords> -->
-  <!-- 	<indexterm></indexterm> -->
-  <!--     </keywords> -->
-  <!--   </metadata> -->
-  <!-- </prolog> -->
-
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>SVR</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+;
   <conbody>
     <p>
-      Security Virtual Resources (SVRs) ...
+      A <abbreviated-form keyref="gloss.svr"/> is an OCF-defined
+      resource that controls some aspect of security. OCF defines six SVRs:
     </p>
 
     <ul>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="sec.svr.sacl" xml:lang="en-us">
+  <title>SACL (Signed ACL)</title>
+  <shortdesc></shortdesc>
+
+  <prolog>
+    <metadata>
+      <keywords>
+  	<indexterm>SACL</indexterm>
+  	<indexterm>ACL</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <conbody>
+    <p>
+      The <abbreviated-form keyref="gloss.svr.sacl"/> resource
+      supports cryptographically signed ACLs.
+    </p>
+
+    <p>
+      URL: <codeph>/oic/sacl</codeph>
+    </p>
+
+    <p>
+      Properties:
+    </p>
+
+  </conbody>
+
+</concept>

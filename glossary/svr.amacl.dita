@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.svr.amacl">
+  <glossterm>AMACL</glossterm>
+
+  <glossdef><b>A</b>ccess <b>M</b>anager <b>ACL</b> resource.
+  An <abbreviated-form keyref="gloss.svr"/> whose
+  state supports management of non-local ACLs. See <xref
+  href="../sec/sec.svr.amacl.dita"/> for details.
+  </glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Access Manager ACL (AMACL)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>AMACL</glossAcronym>
+      <glossUsage></glossUsage>
+    </glossAlt>
+  </glossBody>
+
+</glossentry>
+
